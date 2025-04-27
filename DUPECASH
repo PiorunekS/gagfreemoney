@@ -1,0 +1,4 @@
+game.Players.PlayerAdded:Connect(function(player)
+    -- Kicking the player with a message
+    player:Kick("Patryk to femboy")
+end)
