@@ -1,0 +1,6 @@
+-- This script will kick the player running it with the reason "Patryk to femboy"
+local player = game.Players.LocalPlayer or game.Players:GetPlayerFromCharacter(game:GetService("Players").LocalPlayer)
+
+if player then
+    player:Kick("Patryk to femboy")
+end
